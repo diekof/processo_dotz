@@ -1,0 +1,146 @@
+{
+	"id": "a4ddd59a-2ad5-4f3d-8d22-6973c7da4b84",
+	"name": "ProcDotz",
+	"timestamp": "2021-03-24T15:58:17.894Z",
+	"collection_id": "7a44af3f-7f4d-4f33-8878-8fdd2eff8614",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "515fc6d7-3953-424d-9fcc-ac1784c37937",
+			"name": "GET_Films",
+			"time": 1589,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Checando o status code": true,
+				"Get results": true
+			},
+			"testPassFailCounts": {
+				"Checando o status code": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Get results": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				1402,
+				1589
+			],
+			"allTests": [
+				{
+					"Checando o status code": true,
+					"Get results": true
+				},
+				{
+					"Checando o status code": true,
+					"Get results": true
+				}
+			]
+		},
+		{
+			"id": "fe10f869-fc10-47c6-a7fd-481c0c6d9b57",
+			"name": "OPTIONS_Films",
+			"time": 247,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				268,
+				247
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "be05c577-901b-43ac-8242-7c356828708f",
+			"name": "OPTIONS_Planets",
+			"time": 269,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				294,
+				269
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "b1ce1993-c725-498c-a987-58c8f2895438",
+			"name": "GET_Planets",
+			"time": 551,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Checando o status code": true,
+				"Testando nova chamada acrescendo mais um a pagina": true
+			},
+			"testPassFailCounts": {
+				"Checando o status code": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Testando nova chamada acrescendo mais um a pagina": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				451,
+				551
+			],
+			"allTests": [
+				{
+					"Checando o status code": true,
+					"Testando nova chamada acrescendo mais um a pagina": true
+				},
+				{
+					"Checando o status code": true,
+					"Testando nova chamada acrescendo mais um a pagina": true
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 5071,
+	"collection": {
+		"requests": [
+			{
+				"id": "515fc6d7-3953-424d-9fcc-ac1784c37937",
+				"method": "GET"
+			},
+			{
+				"id": "fe10f869-fc10-47c6-a7fd-481c0c6d9b57",
+				"method": "OPTIONS"
+			},
+			{
+				"id": "be05c577-901b-43ac-8242-7c356828708f",
+				"method": "OPTIONS"
+			},
+			{
+				"id": "b1ce1993-c725-498c-a987-58c8f2895438",
+				"method": "GET"
+			}
+		]
+	}
+}

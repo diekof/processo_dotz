@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "7a44af3f-7f4d-4f33-8878-8fdd2eff8614",
+		"name": "ProcDotz",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Films",
+			"item": [
+				{
+					"name": "GET_Films",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Checando o status code\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"var jsonData = pm.response.json();\r",
+									"var titulos =jsonData.results;\r",
+									"console.log(pm.collectionVariables.get(\"baseUrl\"));\r",
+									"pm.test(\"Get results\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"    pm.response.to.be.ok;\r",
+									"    pm.expect(titulos).to.length > 0\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/films/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"films",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OPTIONS_Films",
+					"request": {
+						"method": "OPTIONS",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/films/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"films",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Planets",
+			"item": [
+				{
+					"name": "OPTIONS_Planets",
+					"request": {
+						"method": "OPTIONS",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/planets/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"planets",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Planets",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Checando o status code\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Testando nova chamada acrescendo mais um a pagina\", function () {\r",
+									"\r",
+									"    var jsonData = pm.response.json();\r",
+									"    var titulos =jsonData.results;\r",
+									"    console.info(titulos)\r",
+									"    pm.response.to.have.status(200);\r",
+									"    pm.response.to.be.ok;\r",
+									"    pm.expect(titulos).to.length > 0\r",
+									"\r",
+									"    pm.collectionVariables.set(\"planetsPage\",2)\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/planets/?page={{planetsPage}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"planets",
+								""
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "{{planetsPage}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://swapi.dev/api"
+		},
+		{
+			"key": "planetsPage",
+			"value": "1"
+		}
+	]
+}

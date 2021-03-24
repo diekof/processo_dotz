@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Cucumber Report Builder web automation test results</title>
+
+  <link rel="icon" href="https://reportbuilder.rajatthareja.com/rb.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection"/>
+  <link href="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.9/css/report.builder.min.css" rel="stylesheet">
+
+  
+</head>
+
+  <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+<header class="brown lighten-5">
+  <div class="row brown lighten-1">
+    <div class="col m6 hide-on-small-only">
+      <h5 class="truncate white-text tooltipped" data-tooltip="Cucumber Report Builder web automation test results">Cucumber Report Builder web automation test results</h5>
+    </div>
+
+    <div class="col m6 s12 brown lighten-1">
+      <ul class="tabs brown lighten-1 row" style="overflow-x: hidden">
+        <li class="tab col s3">
+          <a class="brown lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a>
+        </li>
+        <li class="tab col s3">
+          <a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a>
+        </li>
+        <li class="tab col s3">
+          <a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a>
+        </li>
+        <li class="tab col s3">
+          <a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Failed Scenarios" href="#errors"><i class="material-icons">bug_report</i> Errors</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+    
+
+    
+    
+
+    
+    
+        
+        <div id="g0f0s0" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+
+    <h5>Enviar uma requisição para a API (3.417s)</h5>
+    features/films.feature:9
+
+    
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que eu tenha o endereço da API &quot;/films&quot; (Contexto) (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> realizo a requisição &quot;GET&quot; (3.389s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Então </b> devo ver lista de filmes (0.003s)
+
+  
+
+  
+
+  
+  
+  
+    
+        <pre>Funcionando!</pre>
+    
+        <pre>Foram encontrados 6 títulos!</pre>
+    
+        <pre>["A New Hope", "The Empire Strikes Back", "Return of the Jedi", "The Phantom Menace", "Attack of the Clones", "Revenge of the Sith"]</pre>
+    
+
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo ter o statuscode 200 (0.025s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+
+    
+        
+        <div id="g0f1s0" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+
+    <h5>Enviar uma requisição para a API (3.127s)</h5>
+    features/planets.feature:6
+
+    
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> realizo a requisição &quot;GET&quot; no caminho &quot;/planets&quot; com a página 1 (1.633s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Então </b> devo ver lista de planetas (0.001s)
+
+  
+
+  
+
+  
+  
+  
+    
+        <pre>Resultado: {"count":60,"next":"http://swapi.dev/api/planets/?page=2","previous":null,"results":[{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1 standard","terrain":"desert","surface_water":"1","population":"200000","residents":["http://swapi.dev/api/people/1/","http://swapi.dev/api/people/2/","http://swapi.dev/api/people/4/","http://swapi.dev/api/people/6/","http://swapi.dev/api/people/7/","http://swapi.dev/api/people/8/","http://swapi.dev/api/people/9/","http://swapi.dev/api/people/11/","http://swapi.dev/api/people/43/","http://swapi.dev/api/people/62/"],"films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"http://swapi.dev/api/planets/1/"},{"name":"Alderaan","rotation_period":"24","orbital_period":"364","diameter":"12500","climate":"temperate","gravity":"1 standard","terrain":"grasslands, mountains","surface_water":"40","population":"2000000000","residents":["http://swapi.dev/api/people/5/","http://swapi.dev/api/people/68/","http://swapi.dev/api/people/81/"],"films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/6/"],"created":"2014-12-10T11:35:48.479000Z","edited":"2014-12-20T20:58:18.420000Z","url":"http://swapi.dev/api/planets/2/"},{"name":"Yavin IV","rotation_period":"24","orbital_period":"4818","diameter":"10200","climate":"temperate, tropical","gravity":"1 standard","terrain":"jungle, rainforests","surface_water":"8","population":"1000","residents":[],"films":["http://swapi.dev/api/films/1/"],"created":"2014-12-10T11:37:19.144000Z","edited":"2014-12-20T20:58:18.421000Z","url":"http://swapi.dev/api/planets/3/"},{"name":"Hoth","rotation_period":"23","orbital_period":"549","diameter":"7200","climate":"frozen","gravity":"1.1 standard","terrain":"tundra, ice caves, mountain ranges","surface_water":"100","population":"unknown","residents":[],"films":["http://swapi.dev/api/films/2/"],"created":"2014-12-10T11:39:13.934000Z","edited":"2014-12-20T20:58:18.423000Z","url":"http://swapi.dev/api/planets/4/"},{"name":"Dagobah","rotation_period":"23","orbital_period":"341","diameter":"8900","climate":"murky","gravity":"N/A","terrain":"swamp, jungles","surface_water":"8","population":"unknown","residents":[],"films":["http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"created":"2014-12-10T11:42:22.590000Z","edited":"2014-12-20T20:58:18.425000Z","url":"http://swapi.dev/api/planets/5/"},{"name":"Bespin","rotation_period":"12","orbital_period":"5110","diameter":"118000","climate":"temperate","gravity":"1.5 (surface), 1 standard (Cloud City)","terrain":"gas giant","surface_water":"0","population":"6000000","residents":["http://swapi.dev/api/people/26/"],"films":["http://swapi.dev/api/films/2/"],"created":"2014-12-10T11:43:55.240000Z","edited":"2014-12-20T20:58:18.427000Z","url":"http://swapi.dev/api/planets/6/"},{"name":"Endor","rotation_period":"18","orbital_period":"402","diameter":"4900","climate":"temperate","gravity":"0.85 standard","terrain":"forests, mountains, lakes","surface_water":"8","population":"30000000","residents":["http://swapi.dev/api/people/30/"],"films":["http://swapi.dev/api/films/3/"],"created":"2014-12-10T11:50:29.349000Z","edited":"2014-12-20T20:58:18.429000Z","url":"http://swapi.dev/api/planets/7/"},{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1 standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["http://swapi.dev/api/people/3/","http://swapi.dev/api/people/21/","http://swapi.dev/api/people/35/","http://swapi.dev/api/people/36/","http://swapi.dev/api/people/37/","http://swapi.dev/api/people/38/","http://swapi.dev/api/people/39/","http://swapi.dev/api/people/42/","http://swapi.dev/api/people/60/","http://swapi.dev/api/people/61/","http://swapi.dev/api/people/66/"],"films":["http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"http://swapi.dev/api/planets/8/"},{"name":"Coruscant","rotation_period":"24","orbital_period":"368","diameter":"12240","climate":"temperate","gravity":"1 standard","terrain":"cityscape, mountains","surface_water":"unknown","population":"1000000000000","residents":["http://swapi.dev/api/people/34/","http://swapi.dev/api/people/55/","http://swapi.dev/api/people/74/"],"films":["http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"created":"2014-12-10T11:54:13.921000Z","edited":"2014-12-20T20:58:18.432000Z","url":"http://swapi.dev/api/planets/9/"},{"name":"Kamino","rotation_period":"27","orbital_period":"463","diameter":"19720","climate":"temperate","gravity":"1 standard","terrain":"ocean","surface_water":"100","population":"1000000000","residents":["http://swapi.dev/api/people/22/","http://swapi.dev/api/people/72/","http://swapi.dev/api/people/73/"],"films":["http://swapi.dev/api/films/5/"],"created":"2014-12-10T12:45:06.577000Z","edited":"2014-12-20T20:58:18.434000Z","url":"http://swapi.dev/api/planets/10/"}]}</pre>
+    
+
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo ter o statuscode 200 (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> coseguir visualizar o valor count dentro do retorno (0.001s)
+
+  
+
+  
+
+  
+  
+  
+    
+        <pre>Foram encontrados 60 títulos!</pre>
+    
+
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> realizo a nova requisição &quot;GET&quot; no caminho &quot;/planets&quot; com a próxima página (1.492s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Então </b> devo ver lista de planetas (0.001s)
+
+  
+
+  
+
+  
+  
+  
+    
+        <pre>Resultado: {"count":60,"next":"http://swapi.dev/api/planets/?page=3","previous":"http://swapi.dev/api/planets/?page=1","results":[{"name":"Geonosis","rotation_period":"30","orbital_period":"256","diameter":"11370","climate":"temperate, arid","gravity":"0.9 standard","terrain":"rock, desert, mountain, barren","surface_water":"5","population":"100000000000","residents":["http://swapi.dev/api/people/63/"],"films":["http://swapi.dev/api/films/5/"],"created":"2014-12-10T12:47:22.350000Z","edited":"2014-12-20T20:58:18.437000Z","url":"http://swapi.dev/api/planets/11/"},{"name":"Utapau","rotation_period":"27","orbital_period":"351","diameter":"12900","climate":"temperate, arid, windy","gravity":"1 standard","terrain":"scrublands, savanna, canyons, sinkholes","surface_water":"0.9","population":"95000000","residents":["http://swapi.dev/api/people/83/"],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T12:49:01.491000Z","edited":"2014-12-20T20:58:18.439000Z","url":"http://swapi.dev/api/planets/12/"},{"name":"Mustafar","rotation_period":"36","orbital_period":"412","diameter":"4200","climate":"hot","gravity":"1 standard","terrain":"volcanoes, lava rivers, mountains, caves","surface_water":"0","population":"20000","residents":[],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T12:50:16.526000Z","edited":"2014-12-20T20:58:18.440000Z","url":"http://swapi.dev/api/planets/13/"},{"name":"Kashyyyk","rotation_period":"26","orbital_period":"381","diameter":"12765","climate":"tropical","gravity":"1 standard","terrain":"jungle, forests, lakes, rivers","surface_water":"60","population":"45000000","residents":["http://swapi.dev/api/people/13/","http://swapi.dev/api/people/80/"],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T13:32:00.124000Z","edited":"2014-12-20T20:58:18.442000Z","url":"http://swapi.dev/api/planets/14/"},{"name":"Polis Massa","rotation_period":"24","orbital_period":"590","diameter":"0","climate":"artificial temperate ","gravity":"0.56 standard","terrain":"airless asteroid","surface_water":"0","population":"1000000","residents":[],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T13:33:46.405000Z","edited":"2014-12-20T20:58:18.444000Z","url":"http://swapi.dev/api/planets/15/"},{"name":"Mygeeto","rotation_period":"12","orbital_period":"167","diameter":"10088","climate":"frigid","gravity":"1 standard","terrain":"glaciers, mountains, ice canyons","surface_water":"unknown","population":"19000000","residents":[],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T13:43:39.139000Z","edited":"2014-12-20T20:58:18.446000Z","url":"http://swapi.dev/api/planets/16/"},{"name":"Felucia","rotation_period":"34","orbital_period":"231","diameter":"9100","climate":"hot, humid","gravity":"0.75 standard","terrain":"fungus forests","surface_water":"unknown","population":"8500000","residents":[],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T13:44:50.397000Z","edited":"2014-12-20T20:58:18.447000Z","url":"http://swapi.dev/api/planets/17/"},{"name":"Cato Neimoidia","rotation_period":"25","orbital_period":"278","diameter":"0","climate":"temperate, moist","gravity":"1 standard","terrain":"mountains, fields, forests, rock arches","surface_water":"unknown","population":"10000000","residents":["http://swapi.dev/api/people/33/"],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T13:46:28.704000Z","edited":"2014-12-20T20:58:18.449000Z","url":"http://swapi.dev/api/planets/18/"},{"name":"Saleucami","rotation_period":"26","orbital_period":"392","diameter":"14920","climate":"hot","gravity":"unknown","terrain":"caves, desert, mountains, volcanoes","surface_water":"unknown","population":"1400000000","residents":[],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T13:47:46.874000Z","edited":"2014-12-20T20:58:18.450000Z","url":"http://swapi.dev/api/planets/19/"},{"name":"Stewjon","rotation_period":"unknown","orbital_period":"unknown","diameter":"0","climate":"temperate","gravity":"1 standard","terrain":"grass","surface_water":"unknown","population":"unknown","residents":["http://swapi.dev/api/people/10/"],"films":[],"created":"2014-12-10T16:16:26.566000Z","edited":"2014-12-20T20:58:18.452000Z","url":"http://swapi.dev/api/planets/20/"}]}</pre>
+    
+
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo ter o statuscode 200 (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> coseguir visualizar o valor count dentro do retorno (0.000s)
+
+  
+
+  
+
+  
+  
+  
+    
+        <pre>Foram encontrados 60 títulos!</pre>
+    
+
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s1" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+
+    <h5>Enviar uma requisição para a API (1.521s)</h5>
+    features/planets.feature:30
+
+    
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que eu tenha o endereço da API &quot;/planets/?page=1&quot; (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> realizo a requisição &quot;GET&quot; (1.520s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Então </b> devo ver lista de planetas (0.001s)
+
+  
+
+  
+
+  
+  
+  
+    
+        <pre>Resultado: {"count":60,"next":"http://swapi.dev/api/planets/?page=2","previous":null,"results":[{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1 standard","terrain":"desert","surface_water":"1","population":"200000","residents":["http://swapi.dev/api/people/1/","http://swapi.dev/api/people/2/","http://swapi.dev/api/people/4/","http://swapi.dev/api/people/6/","http://swapi.dev/api/people/7/","http://swapi.dev/api/people/8/","http://swapi.dev/api/people/9/","http://swapi.dev/api/people/11/","http://swapi.dev/api/people/43/","http://swapi.dev/api/people/62/"],"films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"http://swapi.dev/api/planets/1/"},{"name":"Alderaan","rotation_period":"24","orbital_period":"364","diameter":"12500","climate":"temperate","gravity":"1 standard","terrain":"grasslands, mountains","surface_water":"40","population":"2000000000","residents":["http://swapi.dev/api/people/5/","http://swapi.dev/api/people/68/","http://swapi.dev/api/people/81/"],"films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/6/"],"created":"2014-12-10T11:35:48.479000Z","edited":"2014-12-20T20:58:18.420000Z","url":"http://swapi.dev/api/planets/2/"},{"name":"Yavin IV","rotation_period":"24","orbital_period":"4818","diameter":"10200","climate":"temperate, tropical","gravity":"1 standard","terrain":"jungle, rainforests","surface_water":"8","population":"1000","residents":[],"films":["http://swapi.dev/api/films/1/"],"created":"2014-12-10T11:37:19.144000Z","edited":"2014-12-20T20:58:18.421000Z","url":"http://swapi.dev/api/planets/3/"},{"name":"Hoth","rotation_period":"23","orbital_period":"549","diameter":"7200","climate":"frozen","gravity":"1.1 standard","terrain":"tundra, ice caves, mountain ranges","surface_water":"100","population":"unknown","residents":[],"films":["http://swapi.dev/api/films/2/"],"created":"2014-12-10T11:39:13.934000Z","edited":"2014-12-20T20:58:18.423000Z","url":"http://swapi.dev/api/planets/4/"},{"name":"Dagobah","rotation_period":"23","orbital_period":"341","diameter":"8900","climate":"murky","gravity":"N/A","terrain":"swamp, jungles","surface_water":"8","population":"unknown","residents":[],"films":["http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"created":"2014-12-10T11:42:22.590000Z","edited":"2014-12-20T20:58:18.425000Z","url":"http://swapi.dev/api/planets/5/"},{"name":"Bespin","rotation_period":"12","orbital_period":"5110","diameter":"118000","climate":"temperate","gravity":"1.5 (surface), 1 standard (Cloud City)","terrain":"gas giant","surface_water":"0","population":"6000000","residents":["http://swapi.dev/api/people/26/"],"films":["http://swapi.dev/api/films/2/"],"created":"2014-12-10T11:43:55.240000Z","edited":"2014-12-20T20:58:18.427000Z","url":"http://swapi.dev/api/planets/6/"},{"name":"Endor","rotation_period":"18","orbital_period":"402","diameter":"4900","climate":"temperate","gravity":"0.85 standard","terrain":"forests, mountains, lakes","surface_water":"8","population":"30000000","residents":["http://swapi.dev/api/people/30/"],"films":["http://swapi.dev/api/films/3/"],"created":"2014-12-10T11:50:29.349000Z","edited":"2014-12-20T20:58:18.429000Z","url":"http://swapi.dev/api/planets/7/"},{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1 standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["http://swapi.dev/api/people/3/","http://swapi.dev/api/people/21/","http://swapi.dev/api/people/35/","http://swapi.dev/api/people/36/","http://swapi.dev/api/people/37/","http://swapi.dev/api/people/38/","http://swapi.dev/api/people/39/","http://swapi.dev/api/people/42/","http://swapi.dev/api/people/60/","http://swapi.dev/api/people/61/","http://swapi.dev/api/people/66/"],"films":["http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"http://swapi.dev/api/planets/8/"},{"name":"Coruscant","rotation_period":"24","orbital_period":"368","diameter":"12240","climate":"temperate","gravity":"1 standard","terrain":"cityscape, mountains","surface_water":"unknown","population":"1000000000000","residents":["http://swapi.dev/api/people/34/","http://swapi.dev/api/people/55/","http://swapi.dev/api/people/74/"],"films":["http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"created":"2014-12-10T11:54:13.921000Z","edited":"2014-12-20T20:58:18.432000Z","url":"http://swapi.dev/api/planets/9/"},{"name":"Kamino","rotation_period":"27","orbital_period":"463","diameter":"19720","climate":"temperate","gravity":"1 standard","terrain":"ocean","surface_water":"100","population":"1000000000","residents":["http://swapi.dev/api/people/22/","http://swapi.dev/api/people/72/","http://swapi.dev/api/people/73/"],"films":["http://swapi.dev/api/films/5/"],"created":"2014-12-10T12:45:06.577000Z","edited":"2014-12-20T20:58:18.434000Z","url":"http://swapi.dev/api/planets/10/"}]}</pre>
+    
+
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo ter o statuscode 200 (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> coseguir visualizar o valor count dentro do retorno (0.000s)
+
+  
+
+  
+
+  
+  
+  
+    
+        <pre>Foram encontrados 60 títulos!</pre>
+    
+
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s2" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+
+    <h5>Enviar uma requisição para a API (3.070s)</h5>
+    features/planets.feature:31
+
+    
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que eu tenha o endereço da API &quot;/planets/?page=2&quot; (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> realizo a requisição &quot;GET&quot; (3.069s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Então </b> devo ver lista de planetas (0.001s)
+
+  
+
+  
+
+  
+  
+  
+    
+        <pre>Resultado: {"count":60,"next":"http://swapi.dev/api/planets/?page=3","previous":"http://swapi.dev/api/planets/?page=1","results":[{"name":"Geonosis","rotation_period":"30","orbital_period":"256","diameter":"11370","climate":"temperate, arid","gravity":"0.9 standard","terrain":"rock, desert, mountain, barren","surface_water":"5","population":"100000000000","residents":["http://swapi.dev/api/people/63/"],"films":["http://swapi.dev/api/films/5/"],"created":"2014-12-10T12:47:22.350000Z","edited":"2014-12-20T20:58:18.437000Z","url":"http://swapi.dev/api/planets/11/"},{"name":"Utapau","rotation_period":"27","orbital_period":"351","diameter":"12900","climate":"temperate, arid, windy","gravity":"1 standard","terrain":"scrublands, savanna, canyons, sinkholes","surface_water":"0.9","population":"95000000","residents":["http://swapi.dev/api/people/83/"],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T12:49:01.491000Z","edited":"2014-12-20T20:58:18.439000Z","url":"http://swapi.dev/api/planets/12/"},{"name":"Mustafar","rotation_period":"36","orbital_period":"412","diameter":"4200","climate":"hot","gravity":"1 standard","terrain":"volcanoes, lava rivers, mountains, caves","surface_water":"0","population":"20000","residents":[],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T12:50:16.526000Z","edited":"2014-12-20T20:58:18.440000Z","url":"http://swapi.dev/api/planets/13/"},{"name":"Kashyyyk","rotation_period":"26","orbital_period":"381","diameter":"12765","climate":"tropical","gravity":"1 standard","terrain":"jungle, forests, lakes, rivers","surface_water":"60","population":"45000000","residents":["http://swapi.dev/api/people/13/","http://swapi.dev/api/people/80/"],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T13:32:00.124000Z","edited":"2014-12-20T20:58:18.442000Z","url":"http://swapi.dev/api/planets/14/"},{"name":"Polis Massa","rotation_period":"24","orbital_period":"590","diameter":"0","climate":"artificial temperate ","gravity":"0.56 standard","terrain":"airless asteroid","surface_water":"0","population":"1000000","residents":[],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T13:33:46.405000Z","edited":"2014-12-20T20:58:18.444000Z","url":"http://swapi.dev/api/planets/15/"},{"name":"Mygeeto","rotation_period":"12","orbital_period":"167","diameter":"10088","climate":"frigid","gravity":"1 standard","terrain":"glaciers, mountains, ice canyons","surface_water":"unknown","population":"19000000","residents":[],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T13:43:39.139000Z","edited":"2014-12-20T20:58:18.446000Z","url":"http://swapi.dev/api/planets/16/"},{"name":"Felucia","rotation_period":"34","orbital_period":"231","diameter":"9100","climate":"hot, humid","gravity":"0.75 standard","terrain":"fungus forests","surface_water":"unknown","population":"8500000","residents":[],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T13:44:50.397000Z","edited":"2014-12-20T20:58:18.447000Z","url":"http://swapi.dev/api/planets/17/"},{"name":"Cato Neimoidia","rotation_period":"25","orbital_period":"278","diameter":"0","climate":"temperate, moist","gravity":"1 standard","terrain":"mountains, fields, forests, rock arches","surface_water":"unknown","population":"10000000","residents":["http://swapi.dev/api/people/33/"],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T13:46:28.704000Z","edited":"2014-12-20T20:58:18.449000Z","url":"http://swapi.dev/api/planets/18/"},{"name":"Saleucami","rotation_period":"26","orbital_period":"392","diameter":"14920","climate":"hot","gravity":"unknown","terrain":"caves, desert, mountains, volcanoes","surface_water":"unknown","population":"1400000000","residents":[],"films":["http://swapi.dev/api/films/6/"],"created":"2014-12-10T13:47:46.874000Z","edited":"2014-12-20T20:58:18.450000Z","url":"http://swapi.dev/api/planets/19/"},{"name":"Stewjon","rotation_period":"unknown","orbital_period":"unknown","diameter":"0","climate":"temperate","gravity":"1 standard","terrain":"grass","surface_water":"unknown","population":"unknown","residents":["http://swapi.dev/api/people/10/"],"films":[],"created":"2014-12-10T16:16:26.566000Z","edited":"2014-12-20T20:58:18.452000Z","url":"http://swapi.dev/api/planets/20/"}]}</pre>
+    
+
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo ter o statuscode 200 (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> coseguir visualizar o valor count dentro do retorno (0.000s)
+
+  
+
+  
+
+  
+  
+  
+    
+        <pre>Foram encontrados 60 títulos!</pre>
+    
+
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s3" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+
+    <h5>Enviar uma requisição para a API (1.587s)</h5>
+    features/planets.feature:32
+
+    
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que eu tenha o endereço da API &quot;/planets/?page=3&quot; (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> realizo a requisição &quot;GET&quot; (1.586s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Então </b> devo ver lista de planetas (0.001s)
+
+  
+
+  
+
+  
+  
+  
+    
+        <pre>Resultado: {"count":60,"next":"http://swapi.dev/api/planets/?page=4","previous":"http://swapi.dev/api/planets/?page=2","results":[{"name":"Eriadu","rotation_period":"24","orbital_period":"360","diameter":"13490","climate":"polluted","gravity":"1 standard","terrain":"cityscape","surface_water":"unknown","population":"22000000000","residents":["http://swapi.dev/api/people/12/"],"films":[],"created":"2014-12-10T16:26:54.384000Z","edited":"2014-12-20T20:58:18.454000Z","url":"http://swapi.dev/api/planets/21/"},{"name":"Corellia","rotation_period":"25","orbital_period":"329","diameter":"11000","climate":"temperate","gravity":"1 standard","terrain":"plains, urban, hills, forests","surface_water":"70","population":"3000000000","residents":["http://swapi.dev/api/people/14/","http://swapi.dev/api/people/18/"],"films":[],"created":"2014-12-10T16:49:12.453000Z","edited":"2014-12-20T20:58:18.456000Z","url":"http://swapi.dev/api/planets/22/"},{"name":"Rodia","rotation_period":"29","orbital_period":"305","diameter":"7549","climate":"hot","gravity":"1 standard","terrain":"jungles, oceans, urban, swamps","surface_water":"60","population":"1300000000","residents":["http://swapi.dev/api/people/15/"],"films":[],"created":"2014-12-10T17:03:28.110000Z","edited":"2014-12-20T20:58:18.458000Z","url":"http://swapi.dev/api/planets/23/"},{"name":"Nal Hutta","rotation_period":"87","orbital_period":"413","diameter":"12150","climate":"temperate","gravity":"1 standard","terrain":"urban, oceans, swamps, bogs","surface_water":"unknown","population":"7000000000","residents":["http://swapi.dev/api/people/16/"],"films":[],"created":"2014-12-10T17:11:29.452000Z","edited":"2014-12-20T20:58:18.460000Z","url":"http://swapi.dev/api/planets/24/"},{"name":"Dantooine","rotation_period":"25","orbital_period":"378","diameter":"9830","climate":"temperate","gravity":"1 standard","terrain":"oceans, savannas, mountains, grasslands","surface_water":"unknown","population":"1000","residents":[],"films":[],"created":"2014-12-10T17:23:29.896000Z","edited":"2014-12-20T20:58:18.461000Z","url":"http://swapi.dev/api/planets/25/"},{"name":"Bestine IV","rotation_period":"26","orbital_period":"680","diameter":"6400","climate":"temperate","gravity":"unknown","terrain":"rocky islands, oceans","surface_water":"98","population":"62000000","residents":["http://swapi.dev/api/people/19/"],"films":[],"created":"2014-12-12T11:16:55.078000Z","edited":"2014-12-20T20:58:18.463000Z","url":"http://swapi.dev/api/planets/26/"},{"name":"Ord Mantell","rotation_period":"26","orbital_period":"334","diameter":"14050","climate":"temperate","gravity":"1 standard","terrain":"plains, seas, mesas","surface_water":"10","population":"4000000000","residents":[],"films":["http://swapi.dev/api/films/2/"],"created":"2014-12-15T12:23:41.661000Z","edited":"2014-12-20T20:58:18.464000Z","url":"http://swapi.dev/api/planets/27/"},{"name":"unknown","rotation_period":"0","orbital_period":"0","diameter":"0","climate":"unknown","gravity":"unknown","terrain":"unknown","surface_water":"unknown","population":"unknown","residents":["http://swapi.dev/api/people/20/","http://swapi.dev/api/people/23/","http://swapi.dev/api/people/29/","http://swapi.dev/api/people/32/","http://swapi.dev/api/people/75/"],"films":[],"created":"2014-12-15T12:25:59.569000Z","edited":"2014-12-20T20:58:18.466000Z","url":"http://swapi.dev/api/planets/28/"},{"name":"Trandosha","rotation_period":"25","orbital_period":"371","diameter":"0","climate":"arid","gravity":"0.62 standard","terrain":"mountains, seas, grasslands, deserts","surface_water":"unknown","population":"42000000","residents":["http://swapi.dev/api/people/24/"],"films":[],"created":"2014-12-15T12:53:47.695000Z","edited":"2014-12-20T20:58:18.468000Z","url":"http://swapi.dev/api/planets/29/"},{"name":"Socorro","rotation_period":"20","orbital_period":"326","diameter":"0","climate":"arid","gravity":"1 standard","terrain":"deserts, mountains","surface_water":"unknown","population":"300000000","residents":["http://swapi.dev/api/people/25/"],"films":[],"created":"2014-12-15T12:56:31.121000Z","edited":"2014-12-20T20:58:18.469000Z","url":"http://swapi.dev/api/planets/30/"}]}</pre>
+    
+
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo ter o statuscode 200 (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> coseguir visualizar o valor count dentro do retorno (0.000s)
+
+  
+
+  
+
+  
+  
+  
+    
+        <pre>Foram encontrados 60 títulos!</pre>
+    
+
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        
+        $('#g0f0s0').modal();
+        
+        $('#g0f0s1').modal();
+        
+        $('#g0f1s0').modal();
+        
+        $('#g0f1s1').modal();
+        
+        $('#g0f1s2').modal();
+        
+        $('#g0f1s3').modal();
+        
+        $('#g0f1s4').modal();
+        
+    });
+</script>
+
+
+    <main class="brown lighten-5">
+      <div class="row">
+
+        <div id="overview" class="col s12 brown lighten-5">
+          <div class="row">
+  <div class="col m4 s12">
+    <canvas id="featuresDoughnut" width="400" height="400"></canvas>
+    <table id="metaDataFeatures" class="bordered">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col m4 s12">
+    <canvas id="scenariosDoughnut" width="400" height="400"></canvas>
+    <table id="metaDataScenarios" class="bordered">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col m4 s12">
+    <table id="metaData" class="bordered">
+      <tbody>
+      <tr><th>Total Time</th><td>12.722s</td></tr>
+      
+          <tr>
+            <th>Project name</th>
+            <td>Test</td>
+          </tr>
+      
+          <tr>
+            <th>Platform</th>
+            <td>Integration</td>
+          </tr>
+      
+          <tr>
+            <th>Report generated</th>
+            <td>2021-03-24 11:49:15 UTC</td>
+          </tr>
+      
+      </tbody>
+    </table>
+  </div>
+</div>
+
+        </div>
+
+        <div id="features" class="col s12 brown lighten-5 white-text">
+          <ul class="featureList collapsible popout" data-collapsible="expandable">
+  
+      
+      <li class="feature working">
+  <div class="collapsible-header brown lighten-1 waves-effect waves-light">
+    <i class="material-icons">featured_play_list</i>
+    <b>Funcionalidade</b>&nbsp;Filmes&nbsp;(3.417s)
+  </div>
+
+  <div class="collapsible-body brown lighten-4">
+    <div class="collection scenarioList brown">
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s0">
+          <b>Cenario</b> Enviar uma requisição para a API&nbsp;(3.417s)
+        </a>
+      
+    </div>
+  </div>
+</li>
+
+  
+      
+      <li class="feature working">
+  <div class="collapsible-header brown lighten-1 waves-effect waves-light">
+    <i class="material-icons">featured_play_list</i>
+    <b>Funcionalidade</b>&nbsp;Planets&nbsp;(9.305s)
+  </div>
+
+  <div class="collapsible-body brown lighten-4">
+    <div class="collection scenarioList brown">
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s0">
+          <b>Cenario</b> Enviar uma requisição para a API&nbsp;(3.127s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s1">
+          <b>Esquema do Cenario</b> Enviar uma requisição para a API&nbsp;(1.521s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s2">
+          <b>Esquema do Cenario</b> Enviar uma requisição para a API&nbsp;(3.070s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s3">
+          <b>Esquema do Cenario</b> Enviar uma requisição para a API&nbsp;(1.587s)
+        </a>
+      
+    </div>
+  </div>
+</li>
+
+  
+</ul>
+
+        </div>
+
+        <div id="summary" class="col s12 brown lighten-5">
+          <table id="summaryTable" class="bordered brown lighten-1 white-text" width="100%">
+  <thead>
+  <tr>
+    <th class="hide-on-small-only">Feature</th>
+    <th>Scenario</th>
+    <th class="hide">Tags</th>
+    <th>Status</th>
+
+
+    
+
+    <th class="hide-on-small-only">Error</th>
+  </tr>
+  </thead>
+  <tbody>
+  
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Filmes
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s0">
+  Enviar uma requisição para a API
+</td>
+
+<td class="hide">
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+  
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Planets
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s0">
+  Enviar uma requisição para a API
+</td>
+
+<td class="hide">
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Planets
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s1">
+  Enviar uma requisição para a API
+</td>
+
+<td class="hide">
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Planets
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s2">
+  Enviar uma requisição para a API
+</td>
+
+<td class="hide">
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Planets
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s3">
+  Enviar uma requisição para a API
+</td>
+
+<td class="hide">
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+  
+  </tbody>
+</table>
+
+        </div>
+
+        <div id="errors" class="col s12 brown lighten-5">
+          <ul class="errorList collapsible popout" data-collapsible="expandable">
+  
+</ul>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer brown lighten-4">
+  <div class="footer-copyright brown lighten-1">
+    <div class="container">
+      Happy Reporting!
+      <a class="white-text text-lighten-4 right" href="https://reportbuilder.rajatthareja.com">Generated by Report Builder</a>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.9/js/report.builder.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
